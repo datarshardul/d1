@@ -6,8 +6,10 @@
 trigger:
 - master
 
-pool: SD
-  vmImage: ubuntu-latest
+ pool:
+      name: SD
+#pool:
+  #vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
